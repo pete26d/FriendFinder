@@ -21,7 +21,7 @@ for (var selector in config) {
 }
 
 $("#results-modal").on("hidden.bs.modal", function () {
-  window.location.href = "/home";
+  window.location.href = "/";
 })
 
 // Capture the form inputs
