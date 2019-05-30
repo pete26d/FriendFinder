@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FriendFinder</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+  
+</head>
+
+<body>
+  <div class="container">
+
+    <h2>Take the FriendFinder Survey</h2>
+    <hr>
+
+    <h3><strong>Tell Me About You</strong></h3>
+    <h4>Name (Required)</h4>
+    <input type="text" id="name" class="form-control" required>
+
+    <h4>Link to Photo Image (Required)</h4>
+    <input type="text" id="photo" class="form-control" required>
+
+    <hr>
+
+    <h3><strong>Question 1</strong></h3>
+    <h4>No! Try Not! Do or do not. There is no try.</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 2</strong></h3>
+    <h4>Forrest Gump is a terrbile movie because Jenny ignores the love and attention of kind, innocent Forrest and treats him horribly - until she needs him at the end once she is terminally ill. One star. (spoilers)</h4>
+    <select class="chosen-select" id="q2">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 3</strong></h3>
+    <h4>If we ever find dinosaur DNA and perfect cloning said dinosaurs, building a real-life Jurassic Park is morally correct and totally something that should be done.</h4>
+    <select class="chosen-select" id="q3">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 4</strong></h3>
+    <h4>Walter Peck and the EPA were 100% right to shut the Ghostbusters down in 1984.</h4>
+    <select class="chosen-select" id="q4">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 5</strong></h3>
+    <h4>Nobody puts Baby in a corner.</h4>
+    <select class="chosen-select" id="q5">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 6</strong></h3>
+    <h4>Sure, movies are nice and all but I'd rather do something outside.</h4>
+    <select class="chosen-select" id="q6">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 7</strong></h3>
+    <h4>The needs of the many outweigh the needs of the few.</h4>
+    <select class="chosen-select" id="q7">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 8</strong></h3>
+    <h4>Governments should take action to protect dark skies so that future generations can enjoy a starry night.</h4>
+    <select class="chosen-select" id="q8">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 9</strong></h3>
+    <h4>College athletes should be allowed some form of compensation, such as money.</h4>
+    <select class="chosen-select" id="q9">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 10</strong></h3>
+    <h4>One should never put ketchup on a hot dog.</h4>
+    <select class="chosen-select" id="q10">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <br>
+    <br>
+    
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+    <hr>
+
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">Friends List</a></p>
+      </div>
+    </footer>
+
+
+
+  </div>
+
+  <div id="results-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title"><strong>Best Match</strong></h2>
+        </div>
+        <div class="modal-body">
+          <h2 id="match-name"></h2>
+          <img id="match-img" src="" alt="">
+        </div>
+        <div class="modal-footer">
+          <a href="/home"><button class="btn btn-default" data-dismiss="modal">Close</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>
+<script type="text/javascript" src="js/survey.js"></script>
